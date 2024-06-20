@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+	background-color: rgb(243, 243, 211);
+}
+.wrap{
+	margin: 0 auto;
+	width: 75vw;
+}
+.con-h{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.logo{
+	color: darkblue;
+	font-size: 24px;
+	font-weight: bold;
+}
+.menu ul{
+	display: flex;
+	align-items: center;
+	gap: 90px;
+	list-style-type: none;
+}
+.menu ul li a{
+	color: darkblue;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+}
+.menu ul li a:hover{
+	color: rgb(0, 255, 170);
+}
+.con-m{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 130px;
+}
+.inf{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+	width: max-content;
+}
+.inf p{
+	font-size: 28px;
+	font-weight: 500;
+	margin: 0;
+	color: darkblue;
+}
+.inf h2{
+	font-size: 100px;
+	margin: 0;
+	font-weight: 800;
+	color: darkblue;
+}
+.inf span{
+	font-size: 28px;
+	font-weight: 400;
+	margin: 0;
+	color: darkblue;
+}
+.btn1{
+	color: black;
+	background-color: yellow;
+	border: 0.7px solid black;
+	width: max-content;
+	border-radius: 11px;
+	padding: 10px 30px;
+	font-weight: 500;
+	font-size: 20px;
+	cursor: pointer;
+	transition: all 0.4s ease-in-out;
+	margin-top: 20px;
+}
+.btn1:hover{
+	background-color: darkblue;
+	color: white;
+}
+.img img{
+	width: 100%;
+	pointer-events: none;
+}
+.img{
+	width: 50%;
+}
+.con-m2{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-top: 100px;
+}
+.con-m2 h3{
+	margin: 0;
+	color: rgb(249, 249, 132);
+	font-size: 100px;
+	font-weight: 800;
+	transition: all 0.4s ease-in-out;
+
+}
+.con-m2 h3:hover{
+	color: darkblue;
+	width: max-content;
+}
+.con-m2 p{
+	margin: 0;
+	color: darkblue;
+	font-size: 24px;
+	font-weight: 400;
+	width: 60%;
+}
+.con-m3{
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	gap: 50px;
+}
+.men li{
+	font-size: 24px;
+	color: blue;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+.men{
+	width: 60%;
+	color: darkblue;
+}
+.men span{
+	color: darkblue;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0;
+}
+.men{
+	margin-left: 300px;
+}
+.con-m4{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	margin-top: 60px;
+}
+.con-m4 h4{
+	margin: 0;
+	color: rgb(249, 249, 132);
+	font-size: 100px;
+	font-weight: 800;
+	transition: all 0.4s ease-in-out;
+}
+.con-m4 h4:hover{
+	color: darkblue;
+	width: max-content;
+}
+.con-m4 span{
+	margin: 0;
+	color: darkblue;
+	font-size: 20px;
+	width: 60%;
+}
+.b{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 50px;
+}
+.bunt{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.bunt img{
+	width: 89%;
+	pointer-events: none;
+}
+.bunt span{
+	color: darkblue;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+}
+.bunt p{
+	color: darkblue;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0;
+	width: 79%;
+}
+.foot{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	margin-bottom: 100px;
+}
+.foot h5{
+	margin: 0;
+	color: rgb(249, 249, 132);
+	font-size: 100px;
+	font-weight: 800;
+	transition: all 0.4s ease-in-out;
+}
+.foot h5:hover{
+	color: darkblue;
+	width: max-content;
+}
+.pero{
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+.pero img{
+	pointer-events: none;
+}
+.pero p{
+	font-size: 24px;
+	font-weight: 400;
+	color: darkblue;
+}
+.pero span{
+	font-size: 24px;
+	font-weight: 400;
+	color: darkblue;
+}
+.ttt{
+	display: flex;
+	flex-direction: column;
+}
+.ttt{
+	width: 62%;
+}
+.pero{
+	width: 100%;
+}
+.pero imgg{
+	width: 100%;
+}
+@media (max-width:1100px){
+	.inf h2{
+		font-size: 50px;
+	}
+	.logo h1{
+		font-size: 40px;
+	}
+	.ttt p{
+		font-size: 20px;
+	}
+	.pero img{
+		width: 50%;
+	}
+}
+@media (max-width:900px){
+	.menu{
+		display: none;
+	}
+	.b{
+		gap: 50px;
+	}
+	.con-m{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.btn1{
+		display: flex;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	.con-m2{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.con-m2 p{
+		display: flex;
+		margin: 0 auto;
+	}
+	.men{
+		display: flex;
+		margin-left: 0px;
+		flex-direction: column;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.con-m4{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+	}
+	.con-m4 span{
+		margin: 0 auto;
+	}
+	.b{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+	}
+	.bunt p{
+		margin: 0 auto;
+	}
+	.bunt img{
+		width: 50%;
+		display: flex;
+		margin: 0 auto;
+	}
+	.foot{
+		margin-top: 40px;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.pero{
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media (max-width:570px){
+	.con-m2 h3{
+		font-size: 79px;
+	}
+	.burger{
+		width: 30px;
+		height: 30px;
+		display: flex;
+		background-color: #fff;
+		border-radius: 3px;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+	.burger span{
+		height: 3px;
+		background-color: #000000;
+		width: 80%;
+	}
+	.burger span::before{
+		content: "";
+		height: 3px;
+		background-color: #000000;
+		width: 80%;
+		position: absolute;
+		top: 5px;
+	}
+	.burger span::after{
+		content: "";
+		height: 3px;
+		background-color: #000000;
+		width: 80%;
+		position: absolute;
+		bottom: 5px;
+	}
+	.logo h1{
+		font-size: 30px;
+	}
+	.con-m4 h4{
+		font-size: 79px;
+	}
+	.foot h5{
+		font-size: 79px;
+	}
+	.pero img{
+		width: 8	0%;
+	}
+	.ttt span{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+}
+@media (max-width:460px){
+	.inf h2{
+		font-size: 40px;
+	}
+	.btn1{
+		font-weight: 400;
+		padding: 9px;
+	}
+	.img img{
+		width: 100%;
+	}
+	.img{
+		width: 80%;
+	}
+}
+@media (max-width:360px){
+	.inf h2{
+		font-size: 30px;
+	}
+	.inf p{
+		font-size: 22px;
+	}
+	.inf span{
+		font-size: 22px;
+	}
+	.foot h5{
+		font-size: 60px;
+	}
+	.bunt img{
+		width: 100%;
+	}
+	.bunt{
+		width: 90%;
+	}
+	.pero img{
+		width: 100%;
+	}
+	.pero{
+		width: 90%;
+	}
+	.con-m2 h3{
+		font-size: 64px;
+	}
+}
